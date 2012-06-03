@@ -1,0 +1,31 @@
+diff -Naur mklibs/config.guess mklibs.new/config.guess
+diff -Naur mklibs/config.h mklibs.new/config.h
+diff -Naur mklibs/config.log mklibs.new/config.log
+diff -Naur mklibs/config.status mklibs.new/config.status
+diff -Naur mklibs/config.sub mklibs.new/config.sub
+diff -Naur mklibs/Makefile mklibs.new/Makefile
+diff -Naur mklibs/src/Makefile mklibs.new/src/Makefile
+diff -Naur mklibs/src/mklibs.py mklibs.new/src/mklibs.py
+diff -Naur mklibs/src/mklibs-readelf/.deps/elf.Po mklibs.new/src/mklibs-readelf/.deps/elf.Po
+diff -Naur mklibs/src/mklibs-readelf/.deps/main.Po mklibs.new/src/mklibs-readelf/.deps/main.Po
+diff -Naur mklibs/src/mklibs-readelf/elf.cpp mklibs.new/src/mklibs-readelf/elf.cpp
+--- mklibs/src/mklibs-readelf/elf.cpp	2009-07-24 13:16:17.000000000 +0300
++++ mklibs.new/src/mklibs-readelf/elf.cpp	2012-05-28 20:24:43.000000000 +0300
+@@ -26,6 +26,8 @@
+ #include <sys/mman.h>
+ #include <sys/stat.h>
+ 
++#include <unistd.h>
++
+ using namespace Elf;
+ 
+ file::~file () throw ()
+diff -Naur mklibs/src/mklibs-readelf/elf.o mklibs.new/src/mklibs-readelf/elf.o
+\ No newline at end of file
+diff -Naur mklibs/src/mklibs-readelf/main.cpp mklibs.new/src/mklibs-readelf/main.cpp
+diff -Naur mklibs/src/mklibs-readelf/main.o mklibs.new/src/mklibs-readelf/main.o
+\ No newline at end of file
+diff -Naur mklibs/src/mklibs-readelf/Makefile mklibs.new/src/mklibs-readelf/Makefile
+diff -Naur mklibs/src/mklibs-readelf/mklibs-readelf mklibs.new/src/mklibs-readelf/mklibs-readelf
+\ No newline at end of file
+diff -Naur mklibs/stamp-h1 mklibs.new/stamp-h1
